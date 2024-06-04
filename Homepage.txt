@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZATA - Residential Apartment Management</title>
+    <link rel="stylesheet" href="Homepage_Style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ZATA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Efficient Residential Apartment Management</h2>
+            <p>Streamline your apartment management with ZATA. From monthly invoice generation to managing society expenses, we have you covered.</p>
+            <a href="#services" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Monthly Invoice Generation</h3>
+                <p>Automate your monthly invoices with ease.</p>
+            </div>
+            <div class="service">
+                <h3>Managing Society Expenses</h3>
+                <p>Keep track of all society expenses in one place.</p>
+            </div>
+            <div class="service">
+                <h3>Utility Payments</h3>
+                <p>Map and facilitate utility payments seamlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About ZATA</h2>
+            <p>ZATA is dedicated to simplifying the management of residential apartments. With our comprehensive solutions, you can manage invoices, expenses, and payments efficiently.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Get in touch with us!</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ZATA. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
